@@ -115,7 +115,7 @@ namespace Backtrace.Unity.Model
         public bool HandleANR = true;
 
 #if UNITY_ANDROID || UNITY_IOS
-         /// <summary>
+        /// <summary>
         /// Send Out of memory exceptions to Backtrace. 
         /// </summary>
         [Tooltip("Send Out of Memory exceptions to Backtrace")]
@@ -384,3 +384,4 @@ namespace Backtrace.Unity.Model
             return new BacktraceCredentials(ServerUrl);
         }
     }
+}
